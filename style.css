@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background:linear-gradient(to left ,rgb(90, 159, 237) , rgb(59, 4, 200)) ;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.header{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
