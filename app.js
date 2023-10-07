@@ -12,7 +12,6 @@
 // console.log(name)
 // con
 
-
 // let favproglang =prompt("enter your favourite language")
 // let message=`My fav prog language is ${favproglang}`;
 // console.log (message)
@@ -23,7 +22,6 @@
 // let str2 = "JavaScript is fun!";
 // console.log("These two strings are the same:", str1 == str2);
 
-
 // let unassigned;
 // console.log(unassigned);
 
@@ -33,9 +31,7 @@
 
 // let maname=prompt("enter your name");
 
-
 // console.log(petname is equal to maname === )
-
 
 // let name = "zubair";
 // let age = 23;
@@ -45,19 +41,15 @@
 // let saylanisalary =344444444444444444444n;
 // let identity = Symbol('2345');
 
-
 // console.log(typeof(name))
 // console.log(typeof(age))
 // console.log(typeof(married))
 // console.log(typeof(salary))
 // console.log(typeof(saylanisalary))
 
-
 // let nr1 = 2;
 // let nr2 ="2";
 // let nr3 = "a";
-
-
 
 // console.log(typeof String (nr1))
 // console.log(typeof Number(nr2) )
@@ -69,12 +61,11 @@
 //  nr1++;
 //  console.log(nr1) ;
 
-// let nr = 2; 
+// let nr = 2;
 
 // let r= nr++;
 
 // console.log("nr:" , nr)
-
 
 // console.log(nr++);
 
@@ -88,7 +79,7 @@
 
 // let value1 = +prompt("enter your value of a")
 // let value2 = +prompt("enter your value of b")
-     
+
 //      let eqauls = (value1) +  (value2);
 //      console.log(eqauls**0.5)
 
@@ -100,23 +91,21 @@
 // c %= b
 // console.log(a, b, c);
 
+//   **       // LOGICAL OPERATOTRS
 
-                            //   **       // LOGICAL OPERATOTRS 
-
-                            // for and = &&
-                            // for or = ||
-                            // for not = !
+// for and = &&
+// for or = ||
+// for not = !
 
 // let x = 6;
 // let y = 6;
-// console.log(y >= x); 
+// console.log(y >= x);
 
 // let x = 1;
 // let y = 2;
 // let z = 3;
 // let c = 4;
 // console.log(x < y || y > z || c < x);
-
 
 // let x = false;
 // let y = true;
@@ -140,7 +129,7 @@
 // ++b;
 // console.log(b);
 
-// let result = 3 + 4 * 2 / 8; 
+// let result = 3 + 4 * 2 / 8;
 
 // console.log(result)
 
@@ -155,16 +144,15 @@
 
 // const a = 5;
 // const b = 10;
-// console.log(a > 0 && b > 0); 
-// console.log(a == 5 && b == 4); 
-// console.log(true ||false); 
-// console.log(a == 3 || b == 10); 
-// console.log(a == 3 || b == 7); 
+// console.log(a > 0 && b > 0);
+// console.log(a == 5 && b == 4);
+// console.log(true ||false);
+// console.log(a == 3 || b == 10);
+// console.log(a == 3 || b == 7);
 
 // let  value = +prompt("give a value in miles")
 // let  alertt = (value * 1.60934)
 // alert(alertt)
-
 
 // let a = +prompt("enter your height in feet")
 // let b = +prompt("enter your weigtht in pound")
@@ -173,30 +161,25 @@
 // let total = d/c*2; //formula
 // alert(`your bmi is ${total}`);
 
-
 //=========================logic statement===============================
 
-
 // let rain = true;
-// if(rain  === ture) 
+// if(rain  === ture)
 // { console.log("** Taking my umbrella when I need to go outside * " ) }
 //  else {
 //  console.log("** I can leave my umbrella at home **");
 // }
 
-
 // let age = +prompt("enter your age") //prompt
-// if(age < 18) { 
+// if(age < 18) {
 //     console.log("We're very sorry, but you can't get in under 18")  // if
 //    } else {
 //     console.log("Welcome!");
 //    }
-   
 
 // let a = "" ;
 // if (a) {console.log("this is null")}
 // if (!a)  {console.log("this is undefined")}
-
 
 // let age = +prompt("enter your ege");
 // if (age < 18 ) {
@@ -209,13 +192,12 @@
 //     console.log("welcome");
 // }
 
-//===================PRACTICE ASSIGNMENT========================== 
+//===================PRACTICE ASSIGNMENT==========================
 
 // let a=+prompt ("Enter your Numbers")
 // if (a >0 && a <40)
 
 // {console.log("you are failed")}
-
 
 //    else if (a >=40 && a <60)
 //     {console.log("Average")}
@@ -229,31 +211,22 @@
 // else if (a >=80 && a <90)h
 // {console.log("You Assigned A++")}
 
-// else 
+// else
 // {console.log("You enter wrong DAta")}
-
 
 //=======================Conditional ternary operators=====================//
 
 // let hobby ="dancing";
 
-
-
 // console.log(hobby === "codding" ? "i love codding" : "can u teach me that")
-
-
 
 // let age = 18;
 
-
-
 // console.log(age === 16 ? "yes 16" : age > 16 ? "yes greater then 16" : "its small")
-
 
 // let age = +prompt("what is your age")
 
 // console.log(age <= 13 ? "under age" : age > 16 ? "newbiew" : "franked")
-
 
 //===========================switch statement=================================//
 
@@ -269,14 +242,12 @@
 //     console.log("It is 5:00PM")
 //    } else if(activity === "Dinner") {
 //     console.log("It is 6:30PM");
-//    } 
-
-
+//    }
 
 // let timing = +prompt("your timing");
 // // console.log(timing)
 // switch(timing) {
-  
+
 //     case "Get up":
 //     console.log("It is 6:30AM");
 //     break;
@@ -288,10 +259,10 @@
 //     break;
 //     case "Lunch":
 //     console.log("It is 12:00PM");
-//     break; 
+//     break;
 //     case "Drive home":
 //     console.log("It is 5:00PM");
-//     break; 
+//     break;
 //     case "Dinner":
 //     console.log("It is 6:30PM");
 //     break;
@@ -320,7 +291,7 @@
 // arr.splice(1,0,"orange") //splice for adding and removing item from array
 // arr.push("orange"); //,push for adding items to element
 // console.log(arr)
- 
+
 // arr[1] ="banana"
 
 // console.log(arr)
@@ -336,7 +307,6 @@
 
 // console.log(merge)
 
-
 // let arr1 =[1, 2, 3];
 // let arr2 =[5, 4, 6];
 
@@ -349,11 +319,10 @@
 // console.log(merge)
 
 // merge.shift(); to del item from 1 position in array
-// console.log(merge) 
+// console.log(merge)
 
 // merge.unshift("zubair") to add item from 1 position in array
 // console.log(merge)
-
 
 // merge.pop(); // pop for deleting last item of the array
 // console.log(merge)
@@ -389,14 +358,447 @@
 
 // console.log(merge)
 
-// =============================
+// let num =[1,2,3,4,5,6,7,8,9,0,];
 
-let num =[1,2,3,4,5,6,7,8,9,0,];
+// console.log(num);
 
-console.log(num);
+// let find =num.indexOf(1);
 
-let find =num.indexOf(1);
+// let last = num.lastIndexOf(1);
 
-let last = num.lastIndexOf(1);
+// console.log(last)
 
-console.log(last)
+//====================================================MULTIDIMENSIONAL ARRAY
+// let arrvalue =[[1,2,3], [4,5,6], [7,8,9]];
+
+// console.log(arrvalue[1][1])
+
+// let arr =[ [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ],
+//     [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ],
+//     [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ] ]
+
+//     console.log(arr[1][2][2])
+
+// ===========================================Practice Excersice================================
+
+// let x=[[1,2,3], [4,5,6,], [7,8,9]];
+
+// let y =[
+//        [[1,2,3], [4,5,6,], [7,8,9]],
+//        [[1,2,3], [4,5,6,], [7,8,9]],
+//        [[1,2,3], [4,5,6,], [7,8,9]]
+// ]
+// console.log(y[1][2][0])
+
+//==========================================Object In Javascript==================================
+
+// let arr = [0, 1, 2];
+// console.log(typeof arr);
+
+// let Object ={
+//     name: "Amman",
+//     age:"19",
+//     married:"false"
+// }
+
+// Object.name ="shah"; //(how to update object value)
+// console.log(Object)
+// console.log(Object["name"])
+// console.log(Object.age.married)
+
+//=========================================Practice Object===========================================
+
+// let object ={
+//     brand:"lexus",
+//     model:2007,
+//     color:"pearlwhite"
+// }
+
+// let color = "color";
+
+// object [color]= "black"
+
+// object.forsale = true;
+
+// console.log(object [color])
+// console.log(object)
+
+// ==========================================Nested Object=================================================
+
+// let company = { companyName: "Healthy Candy",
+//  activity: "food manufacturing",
+//  address: {
+//  street: "2nd street",
+//  number: "123",
+//  zipcode: "33116",
+//  city: "Miami",
+//  state: "Florida"
+//  },
+//  yearOfEstablishment: 2021
+//  };
+
+//  console.log(company)
+//  console.log(company.address.number)
+
+// ==========================================Array in Object=================================================
+
+// let company = { companyName: "Healthy Candy",
+//  activities: ["food manufacturing",
+// "improving kids' health", "manufacturing toys"],
+//  address: {
+//  street: "2nd street",
+//  number: "123",
+//  zipcode: "33116",
+//  city: "Miami",
+//  state: "Florida"
+//  },
+//  yearOfEstablishment: 2021
+//  };
+
+// console.log(company.activities[2])
+
+// ==========================================object in Array=================================================
+
+// let addresses = [{
+//  street: "2nd street",
+//  number: "123",
+//  zipcode: "33116",
+//  city: "Miami",
+//  state: "Florida"
+//  },
+//  {
+//  street: "1st West avenue",
+//  number: "5",
+//  zipcode: "75001",
+//  city: "Addison",
+//  state: "Texas"
+//  }];
+
+//  console.log(addresses[0].state)
+
+// ==========================================Objects in arrays in objects=================================================
+
+// company = { companyName: "Healthy Candy",
+// activities: [ "food manufacturing",
+// "improving kids' health",
+// "manufacturing toys"],
+//  address: [{
+//  street: "2nd street",
+//  number: "123",
+//  zipcode: "33116",
+//  city: "Miami",
+//  state: "Florida"
+//  },
+//  {
+//  street: "1st West avenue",
+//  number: "5",
+//  zipcode: "75001",
+//  city: "Addison",
+//  state: "Texas"
+//  }],
+//  yearOfEstablishment: 2021
+//  };
+
+//  console.log(company.address[1])
+
+// ===============================PRACTICE EXCERCISE=======================================================
+
+// let people = {
+//     friend:[]
+// }
+// let friendx ={firstname:"Zia",
+//               lastname:"shah",
+//             age:18}
+// let friendz ={firstname:"waqas",
+//               lastname:"ahmed",
+//               age:28}
+// let friendy ={firstname:"riyan",
+//               lastname:"siddiq",
+//               age:24};
+//             //   console.log(people.friend)
+// people.friend.push(friendx , friendy , friendz)
+
+// console.log(people)
+
+// const myArr1 = [1,3,5,6,8,9,15];
+// console.log(myArr1.indexOf(0));
+// console.log(myArr1.indexOf(3));
+
+// let x = [1,3,5,6,8,9,15]
+
+// x.splice(1,1,"carrots")
+
+// console.log(x)
+
+// const myArr2 = [];
+// myArr2[10] = 'test'
+// console.log(myArr2);
+// console.log(myArr2[2]);
+
+// const myArr3 = [3,6,8,9,3,55,553,434];
+// myArr3.sort();
+// myArr3.length = 0;
+// console.log(myArr3[0]);
+
+//===========================================LOOPS===============================================
+
+// for (let i = 0; i < 10; i++ ){
+//     console.log("hello world" , i) }
+
+// let number = 0;
+
+// for (number; number < 100 ; number++ )
+
+// { console.log("hello world") , number///////}
+
+// let array = [40,50,60,70,80,90]
+
+// for (let i =0;i <array.length ; i++)
+// {
+//     if(array[i] > 40 && array[i] < 50){
+//         console.log(`greater then 40`)
+//     }
+//     if(array[i] > 50 && array[i] < 60){
+//         console.log(`greater then 50`)
+//     }
+//     if(array[i] > 60 && array[i] < 70){
+//         console.log(`greater then 60`)
+//     }
+//     if(array[i] > 70 && array[i] < 80){
+//         console.log(`greater then 70`)
+//     }
+//     if(array[i] > 800 && array[i] < 90){
+//         console.log(`greater then 80`)
+//     }
+//     if(array[i] > 90 && array[i] < 100){
+//         console.log(`greater then 90`)
+//     }
+
+//     else  {
+//         console.log("you are fail")
+//     }
+
+// }
+
+//===================================PRACTICE EXCERCISE==========================================
+
+// let mywork = []
+
+// for (let i=0; i <10; i++)
+
+// {let object = {
+//     name:`lesson1`,
+//     status:true
+//     }
+
+// }
+
+//===========================================While loop========================================================
+
+// let i = 0;
+// while (i < 10){
+//     console.log(i);
+//     i++;
+// }
+
+// let someArray = ["Mike", "Antal", "Marc", "Emir", "Louiza", "Jarc" ]
+// let notFound = true;
+// while (notFound && someArray.length > 0) {
+//  if (someArray[0] === "Louiza") {
+//  console.log("Found her!");
+//  notFound = false;
+//  } else {
+//  someArray.shift();
+//  }
+// }
+
+//===========================================Number guessing game=================================================
+
+// let a = Math.floor(Math.random()*5)
+// let  d =5
+// let y = 1
+
+// while( y <= 5 ){
+//     let s = +prompt("guess the hidden numer etween 1 to 5 you should try 3 times")
+//     if(s === d){
+//         console.log(`congratulations hidden number is ${a} and you guessed the hidden number at ${y} times`)
+//     }
+//     else{
+//         console.log("keep it up")
+//     }
+//      y++
+// }
+
+//================================================Do loop======================================================
+
+// var a = "amman";
+// var b = 34;
+// var c = true
+
+// console.log(c)
+
+// let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair","khan"];
+// for (let i of names){
+//     if( i === "john"){
+//         console.log(i);
+//     }
+
+// }
+
+//===============================================for of loop=====================================================
+// let a = [];
+// let x=0;
+// for( i=0;i<10;i++){
+//     x++;
+//     a.push(x)
+// }
+// // console.log(a)
+
+// for(let i of a){
+//     console.log(i)
+// }
+
+//=============================================for in loop========================================================
+
+// let car = {
+//     model: "Golf",
+//     make: "Volkswagen",
+//     year: 1999,
+//     color: "black",
+//    };
+//    for (let key in car){
+//     console.log(car[key]);
+//    }
+
+// let car ={
+//    model:"fit",
+//    make:"honda",
+//    year:2019,
+//    color: "graphite",
+// };
+
+// let a=[]
+
+// for (let prop in car){
+//     console.log(prop )
+//     a.push(prop,car[prop])
+// }
+
+// console.log(a)
+
+// for (const [key, value] of Object.entries(car)) {
+//     console.log(key, ":", value);
+//    }
+
+//==============================================Function In Javascript===================================================================
+
+// function sayhello()
+// {
+//     let name = prompt ('Enter you name');
+//     console.log("hello" , name + "!") ;
+// }
+// sayhello();
+
+// function tester(a){
+//     return a;
+// }
+
+// let name = propmt("Enter your name")
+
+// console.log(tester(name))
+
+//====================================================Practice Excersice 6.1===============================================================
+
+// function fname(a,b){
+
+//       return result = a + b + "!"
+// }
+// console.log(fname("Amman","Shah"))
+
+//====================================================Practice Excersice 6.2===============================================================
+
+// let start = 10;
+// function countdown(count) {
+//   console.log(count);
+//   if (count < 1) {
+//     return;
+//   }
+//   if (count >= 1) {
+//     count--;
+//     if (count > 0) {
+//       count--;
+//     }
+//     return countdown(count);
+//   }
+// }
+
+// Call the countdown function with the start variable as the argument
+// countdown(start);
+
+//====================================================Arrow Funtion=====================================================================
+
+// let a = [];
+// var func = function(x,y){
+//     // var y;
+//     // var x;
+// return x + y;
+// }
+// for (i = 0 ; i < 10 ; i++){
+//     y = i*5;
+//     x = i * i ;
+//     var e  = func(x,y);
+//     a.push(e)
+// }
+// console.log(a)
+
+// let addTwoNumbers = (x, y) => {
+//     console.log("Adding...");
+//     return x + y
+// }
+// addTwoNumbers()
+
+//=======================================Recursive Function=========================================================
+// function getRecursive(nr) {
+//     if (nr > 0){
+//         getRecursive(--nr);
+//         console.log(nr);
+// }
+//    }
+//    getRecursive(3);
+
+// function Recursive(nr) {
+//     if (nr === 0){
+//         return 1 ;
+//     } else{
+//         return nr * Recursive(nr - 1)
+//     }
+// }
+// console.log(Recursive (3)
+
+// let val = 10;
+// function tester(val) {
+//   val += 10;
+//   if (val < 100) {
+//     return tester(val);
+//   }
+//   return val;
+// }
+// tester(val);
+// // console.log(val);
+
+//==========================================js built in function====================================================
+// let a = Date.now();
+// console.log(a);
+
+// let d = new Date();
+// console.log("Day of week:", d.getDay());
+// console.log("Day of month:", d.getDate());
+// console.log("Month:", d.getMonth());
+// console.log("Year:", d.getFullYear());
+// console.log("Seconds:", d.getSeconds());
+// console.log("Milliseconds:", d.getMilliseconds());
+// console.log("Time:", d.getTime());
+
+// let poem = "Roses are red, violets are blue, if I can do JS, the
+// let index_re = poem.indexOf("re");
+// console.log(index_re);
