@@ -847,7 +847,52 @@
 
 //===============================================js built in method continued=====================================
 
-let a = 1.34578;
-let y = a.toFixed(2);
-console.log(a);
-console.log(y);
+// let a = 1.34578;
+// let y = a.toFixed(2);
+// console.log(a);
+// console.log(y);
+
+// let x = 6.78;
+// let y = 5.34;
+// console.log("X:", x, "becomes", Math.round(x));
+// console.log("Y:", y, "becomes", Math.round(y));
+
+// let x = 45.098;
+// console.log(Math.floor(x)); decrement in value
+
+// let x = 45.098;
+// console.log(Math.ceil(x));  increment in value
+
+// ================================================Practice 8.6========================================================
+
+// let val = Math.PI;
+// console.log(val);
+
+// let a = 5.7;
+// console.log(Math.ceil(a));
+
+// let b = 5.7;
+// console.log(Math.floor(a));
+
+// let c = 5.7;
+// console.log(Math.round(a));
+
+// console.log(Math.random());
+
+// let y = Math.floor(Math.random() * 10);
+
+// console.log(y);
+
+// let z = Math.floor(Math.random() * 10);
+
+// console.log(y + 1);
+
+// let s = Math.floor(Math.random() * 100);
+
+// console.log(y + 10);
+
+// function random(min,max){
+//  console.log()`Min ${Math.min(min)} Max${Math.max(max)})
+// }
+
+//===========================================Array built in method==================================================
