@@ -4,28 +4,37 @@
 
 }
 body{
-    background:linear-gradient(to left ,rgb(90, 159, 237) , rgb(59, 4, 200)) ;
+   
     width: 100vw;
     height: 100vh;
-    position: relative;
+    background-color: yellow;
 }
-
 .header{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    width: 600px;
-    height: 500px;
-    display:flex;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000;
 }
-h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
+.header h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.6;
+}
+
+.header h5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    line-height: 0.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
 }

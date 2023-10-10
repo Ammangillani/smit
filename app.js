@@ -731,7 +731,6 @@
 //     return countdown(count);
 //   }
 // }
-
 // Call the countdown function with the start variable as the argument
 // countdown(start);
 
@@ -802,3 +801,53 @@
 // let poem = "Roses are red, violets are blue, if I can do JS, the
 // let index_re = poem.indexOf("re");
 // console.log(index_re);
+
+// let indexNotFound = poem.indexOf("python");
+// console.log(indexNotFound);
+
+// let searchStr = "When I see my fellow, I say hello";
+// let pos = searchStr.search("lo");
+// console.log(pos);
+
+// let notFound = searchStr.search("JavaScript");
+// console.log(notFound);
+
+// let str = "Create a substring";
+// let substr1 = str.slice(5);
+// let substr2 = str.slice(0, 3);
+// console.log("1:", substr1);
+// console.log("2:", substr2);
+
+// let hi = "Hi buddy";
+// let new_hi = hi.replace("buddy", "Pascal");
+// console.log(new_hi);
+
+// let low_bye = "bye!";
+// let up_bye = low_bye.toUpperCase();
+// console.log(up_bye);
+
+// let caps = "HI HOW ARE YOU?";
+// let fixed_caps = caps.toLowerCase();
+// let first_capital = fixed_caps
+//   .charAt(0)
+//   .toUpperCase()
+//   .concat(fixed_caps.slice(1));
+// console.log(first_capital);
+
+//==============================================Practice Exercise 8.5============================================
+
+// let val = "I love JavaScript";
+// val = val.toLowerCase();
+// let arr = ["a", "e", "i", "o", "u"];
+
+// for (let i = 0; i < arr.length; i++) {
+//   val = val.replaceAll(arr[i], i);
+// }
+// console.log(val);
+
+//===============================================js built in method continued=====================================
+
+let a = 1.34578;
+let y = a.toFixed(2);
+console.log(a);
+console.log(y);
