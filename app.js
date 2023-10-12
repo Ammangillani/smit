@@ -896,3 +896,45 @@
 // }
 
 //===========================================Array built in method==================================================
+
+// let arr = ["grapefruit", 4, "hello", 5.6, true];
+// function printStuff(element, index) {
+//  console.log("Printing stuff:", element, "on array position:",
+// }
+// arr.forEach(printStuff);
+
+// let arr = ["squirrel", 5, "Tjed", new Date(), true];
+// function checkString(element, index) {
+//  return typeof element === "string";
+// }
+// let filterArr = arr.filter(checkString);
+// console.log(filterArr);
+
+// let arr = ["grapefruit", 4, "hello", 5.6, true, false];
+// arr.copyWithin(0, 3);
+// console.log(arr);
+
+// let arr = [1, 2, 3, 4];
+// let mapped_arr = arr.map(x => x + 1);
+// console.log(mapped_arr);
+
+//==============================================practice excersice 8.2==============================================
+
+// const arr = [
+//   "Laurence",
+//   "Mike",
+//   "Larry",
+//   "Kim",
+//   "fin",
+//   "Joanne",
+//   "Laurence",
+//   "Mike",
+//   "fin",
+// ];
+
+// const uniqueNames = arr.filter(function (value, index, array) {
+//   console.log(`Index: ${index}, Value: ${value}`);
+//   return array.indexOf(value) === index;
+// });
+
+// console.log("Unique Names:", uniqueNames);
