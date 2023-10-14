@@ -920,7 +920,7 @@
 
 //==============================================practice excersice 8.2==============================================
 
-// const arr = [
+// var arr = [
 //   "Laurence",
 //   "Mike",
 //   "Larry",
@@ -932,9 +932,29 @@
 //   "fin",
 // ];
 
-// const uniqueNames = arr.filter(function (value, index, array) {
+// var uniqueNames = arr.filter(function (value, index, array) {
 //   console.log(`Index: ${index}, Value: ${value}`);
 //   return array.indexOf(value) === index;
 // });
 
 // console.log("Unique Names:", uniqueNames);
+
+//=====================================Practice exercise 8.3======================================================
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+
+// let maping = arr.map;
+// ()
+
+// const arr = "Hi","world","hello","Hii","hi","hi World","Hi]
+// arr.copyWithin(0, 3, 5);
+// console.log(arr)
+
+// const arr = ["Hi", "world", "hello", "Hii", "hi", "hi World", "Hi"];
+// const arr2 = arr.filter((element, index) => {
+//   const ele2 = element.substring(0, 2);
+//   return ele2 == "hi";
+// });
+// console.log(arr2);
+
+//============================================Dom - bom=============================================================
