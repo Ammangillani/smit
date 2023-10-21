@@ -957,4 +957,17 @@
 // });
 // console.log(arr2);
 
-//============================================Dom - bom=============================================================
+//=====================================dom - bom======================================================
+
+// document.getElementById(headinG);
+
+// function custom() {
+//   alert("Ouch! Stop it!");
+// }
+
+// function disappear() {
+//   document.getElementById(shape);
+// }
+
+let arr = ["laurance", "mike", "jones", "larry", "riyan"];
+let k = document.querySelector("#output");
