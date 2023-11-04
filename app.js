@@ -969,5 +969,19 @@
 //   document.getElementById(shape);
 // }
 
-let arr = ["laurance", "mike", "jones", "larry", "riyan"];
-let k = document.querySelector("#output");
+// let arr = ["laurance", "mike", "jones", "larry", "riyan"];
+// let k = document.querySelector("#output");
+
+// console.log(a);
+// // var a;
+// let a = 10;
+
+window.onload = function () {
+  document.getElementById("square").addEventListener("click", changeColor);
+};
+function changeColor() {
+  let red = Math.floor(Math.random() * 256);
+  let green = Math.floor(Math.random() * 256);
+  let blue = Math.floor(Math.random() * 256);
+  this.style.backgroundColor = `rgb(${red}, ${green}, ${blue}`;
+}
