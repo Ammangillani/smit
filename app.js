@@ -976,12 +976,22 @@
 // // var a;
 // let a = 10;
 
-window.onload = function () {
-  document.getElementById("square").addEventListener("click", changeColor);
-};
-function changeColor() {
-  let red = Math.floor(Math.random() * 256);
-  let green = Math.floor(Math.random() * 256);
-  let blue = Math.floor(Math.random() * 256);
-  this.style.backgroundColor = `rgb(${red}, ${green}, ${blue}`;
-}
+// window.onload = function () {
+//   document.getElementById("square").addEventListener("click", changeColor);
+// };
+// function changeColor() {
+//   let red = Math.floor(Math.random() * 256);
+//   let green = Math.floor(Math.random() * 256);
+//   let blue = Math.floor(Math.random() * 256);
+//   this.style.backgroundColor = `rgb(${red}, ${green}, ${blue}`;
+// }
+
+// let el = document.createElement("p");
+// el.innerText = Math.floor(Math.random() * 100);
+// document.body.appendChild(el);
+
+// const btn = document.querySelector(".btn");
+//  btn.addEventListener("click", myFun);
+//  function myFun() {
+//  console.log("clicked");
+//  }
