@@ -996,8 +996,12 @@
 //  console.log("clicked");
 //  }
 
+// function trigger() {
+//   console.log(Event);
+// }
+
 //===================================Sheriyan js Codding Classes===================================================
 
-for (i = 0; i < 10; i+) {
-  console.log("aman");
-}
+// for (i = 0; i < 10; i++) {
+//   console.log("aman");
+// }
