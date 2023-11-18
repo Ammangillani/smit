@@ -1000,18 +1000,24 @@
 //   console.log(Event);
 // }
 
-let imp1 = document.getElementById("sText");
-let imp2 = document.getElementById("rText").value;
-let imp3 = document.getElementById("output");
-
-m;
-// function lookUp() {}
-
-//===================================Sheriyan js Codding Classes===================================================
-
-// for (i = 0; i < 10; i++) {
+// let imp1 = document.getElementById("sText");
+// let imp2 = document.getElementById("rText");
+// let output = document.getElementById("output");
+// function lookUp() {
+//   let changed = imp1.value.replace(imp1.value, imp2.value);
+//   output.innerHTML = changed;
 // }
 
+//======================================================useing strict mode========================================
+// "use strict";
+// function sayHi() {
+//   greeting = "Hello!";
+//   console.log(greeting);
+// }
+// sayHi();
+//===================================Sheriyan js Codding Classes===================================================
+// for (i = 0; i < 10; i++) {
+// }
 // const arr = ["amman", "ali"];
 // function checkItem(item, index) {
 //   console.log(item, index);
