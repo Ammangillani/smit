@@ -1000,8 +1000,20 @@
 //   console.log(Event);
 // }
 
+let imp1 = document.getElementById("sText");
+let imp2 = document.getElementById("rText").value;
+let imp3 = document.getElementById("output");
+
+m;
+// function lookUp() {}
+
 //===================================Sheriyan js Codding Classes===================================================
 
 // for (i = 0; i < 10; i++) {
-//   console.log("aman");
 // }
+
+// const arr = ["amman", "ali"];
+// function checkItem(item, index) {
+//   console.log(item, index);
+// }
+// arr.forEach(checkItem);
