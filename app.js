@@ -1015,6 +1015,35 @@
 //   console.log(greeting);
 // }
 // sayHi();
+
+//==============================================Error handling-------------------------------------------------
+
+// function somethingVeryDangerous() {
+//   throw RangeError();
+// }
+
+// try {
+//   trySomething();
+// } catch (e) {
+//   console.log("Oh oh");
+// } finally {
+//   console.log("Error or no error, I will be logged!");
+// }
+
+function run(val) {
+  if (typeof val !== "Number") {
+    throw "must be number";
+  }
+  return val;
+}
+
+try {
+  let result = run(5);
+  console.log("got a number", result);
+} catch (e) {
+  console.log;
+}
+
 //===================================Sheriyan js Codding Classes===================================================
 // for (i = 0; i < 10; i++) {
 // }
@@ -1023,3 +1052,7 @@
 //   console.log(item, index);
 // }
 // arr.forEach(checkItem);
+
+// const numbers = [33, 2, 8];
+// numbers.sort();
+// console.log(numbers[1]);
