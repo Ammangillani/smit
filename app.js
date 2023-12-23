@@ -1030,19 +1030,19 @@
 //   console.log("Error or no error, I will be logged!");
 // }
 
-function run(val) {
-  if (typeof val !== "Number") {
-    throw "must be number";
-  }
-  return val;
-}
+// function run(val) {
+//   if (typeof val !== "Number") {
+//     throw "must be number";
+//   }
+//   return val;
+// }
 
-try {
-  let result = run(5);
-  console.log("got a number", result);
-} catch (e) {
-  console.log;
-}
+// try {
+//   let result = run(5);
+//   console.log("got a number", result);
+// } catch (e) {
+//   console.log;
+// }
 
 //===================================Sheriyan js Codding Classes===================================================
 // for (i = 0; i < 10; i++) {
