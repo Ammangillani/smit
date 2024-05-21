@@ -36,3 +36,15 @@
 // for (const c of "harry") {
 //   console.log(c);
 // }
+
+// let i = 6;
+// while (i < 7) {
+//   console.log(i);
+//   i++;
+// }
+
+let i = 10;
+do {
+  console.log(i);
+  i++;
+} while (1 < 6);
