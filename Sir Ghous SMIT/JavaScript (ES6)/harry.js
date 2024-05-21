@@ -16,8 +16,23 @@
 
 // for loop syntax and practice
 
-let a = 3;
+// let a = 3;
 
-for (let i = 0; i < 100; i++) {
-  console.log(a + i);
-}
+// for (let i = 0; i < 100; i++) {
+//   console.log(a + i);
+// }
+
+// let obj = {
+//   name: "harry",
+//   role: "Programmer",
+//   company: "finyx",
+// };
+
+// for (const key in obj) {
+//   const element = obj[key];
+//   console.log(key, element);
+// }
+
+// for (const c of "harry") {
+//   console.log(c);
+// }
