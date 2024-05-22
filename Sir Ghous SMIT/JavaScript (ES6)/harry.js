@@ -1,6 +1,59 @@
-// ====================================code with harry======================================
-// =====================================loop=================================================
-// console.log("i am tutorial on loop");
+// -------------------------------------- code with harry-------------------------------------- ==
+
+// -------------------------------------- javascript conditional--------------------------------------
+// function availability() {
+//   let age = document.getElementById("number"); //abhi string he is wjah se vlue get nhi kr rha tha
+//   age = Number(age.value); //yahan re initalize kr rha age ko jisme yeh string se number meh convert krke value get kr rha
+
+//   if (age > 18) {
+//     console.log("you can drive");
+//   } else if (age > 15) {
+//     console.log("you can drive but cycle");
+//   } else {
+//     console.log("you cant do anything ");
+//   }
+// }
+
+// -------------------------------------- Operators in Javascript================================
+
+//  -------------------------------------- arthematic operator------------------------------
+
+// let firstName = "amman";
+// let lastName = "shah";
+
+// plus sign is js operator for addition
+// console.log(firstName + " " + lastName);
+
+// let a = 19;
+// let b = 10;
+// console.log(a + b); // plus sign is js operator for addition
+// console.log(a - b); // hyphen sign is js operator for subtraction
+// console.log(a * b); // stearic sign is js operator for multiplication
+// console.log(a / b); // plus sign is js operator for division
+// console.log(a ** b); // double stearic sign is js operator for exponetional
+// console.log(a % b); // percantage stearic sign is js operator for modules or reminder
+
+// ------------------------------ Assignment Operator --------------------------------------
+
+// let a = 10;
+// let b = 10;
+// console.log(a != b); //  js operator for not equal to
+// console.log(a == b); //  js operator for equal the value
+// console.log(a === b); //   js operator for Equal value strictly with data type
+// console.log(a / b); // plus sign is js operator for division
+// console.log(a ** b); // double stearic sign is js operator for exponetional
+// console.log(a % b); // percantage stearic sign is js operator for modules or reminder
+
+// ------------------------------ logical Operator --------------------------------------
+
+// && and operator
+// !! no operator
+// || 0r operator
+
+// ----------------------------------- ternery Operator -----------------------------------------
+// -------------------------------------- loop-------------------------------------------------
+
+// ============================ console.log("i am tutorial on loop");==========================
 
 // let a = 1;
 // console.log(a);
