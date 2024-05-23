@@ -14,6 +14,16 @@
 //   }
 // }
 
+// let obj = {
+//   name: "amman",
+//   age: 18,
+//   male: false,
+//   marks: 19.7,
+// };
+
+// console.log(Object.values(obj));
+// console.log(Object.keys(obj));
+
 // -------------------------------------- Operators in Javascript================================
 
 //  -------------------------------------- arthematic operator------------------------------
@@ -52,11 +62,11 @@
 
 // ----------------------------------- ternery Operator -----------------------------------------
 
-let a = 6;
-let b = 8;
-let c = a < b ? a - b : b - a;
+// let a = 6;
+// let b = 8;
+// let c = a < b ? a - b : b - a;
 
-console.log(c);
+// console.log(c);
 
 // -------------------------------------- loop-------------------------------------------------
 
