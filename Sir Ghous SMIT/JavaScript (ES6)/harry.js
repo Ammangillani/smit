@@ -24,6 +24,22 @@
 // console.log(Object.values(obj));
 // console.log(Object.keys(obj));
 
+// let a = "Amman";
+// a = a + 18;
+// console.log(a + 29);
+// console.log(typeof a);
+
+// const obj = {
+//   name: "amman",
+//   age: 18,
+//   male: false,
+//   marks: 19.7,
+// };
+
+// obj.cast = "syed";
+
+// console.log(obj);
+
 // -------------------------------------- Operators in Javascript================================
 
 //  -------------------------------------- arthematic operator------------------------------

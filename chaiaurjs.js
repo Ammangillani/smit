@@ -1,20 +1,20 @@
 // =================================variablesssssssssss=================
 
-const account = 12345;
+// const account = 12345;
 
-let accountEmail = "ammanshah4321@icloud.com"; //block scope prefer to use
+// let accountEmail = "ammanshah4321@icloud.com"; //block scope prefer to use
 
-var accountpass = "4321"; /*global scope prefer not to use*/
+// var accountpass = "4321"; /*global scope prefer not to use*/
 
-accountCity = "karachi";
+// accountCity = "karachi";
 
 // account = 2; cannot replace const value
 
-accountEmail = "aaa";
+// accountEmail = "aaa";
 
-accountpass = "ccdccds";
+// accountpass = "ccdccds";
 
-accountCity = "adadadad";
+// accountCity = "adadadad";
 
 //prefer not to use var because of issue in block scope and functional scope
 
