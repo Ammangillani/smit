@@ -39,15 +39,15 @@
 
 // console.log(obj.fname.);
 
-let obj = {
-  name: "amman",
-  lname: "amman",
-  marks: 30,
-};
+// let obj = {
+//   name: "amman",
+//   lname: "amman",
+//   marks: 30,
+// };
 
-for (const key in obj) {
-  if (obj.hasOwnProperty.call(obj, key)) {
-    const result = obj[key];
-    console.log(result);
-  }
-}
+// for (const key in obj) {
+//   if (obj.hasOwnProperty.call(obj, key)) {
+//     const result = obj[key];
+//     console.log(result);
+//   }
+// }
