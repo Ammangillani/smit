@@ -31,4 +31,10 @@
 //   word: "meaning",
 // };
 
-const obj = {};
+const obj = {
+  fname: "amman",
+  lname: "shah",
+  age: 22,
+};
+
+console.log(obj.fname.);
