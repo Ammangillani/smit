@@ -31,10 +31,23 @@
 //   word: "meaning",
 // };
 
-const obj = {
-  fname: "amman",
-  lname: "shah",
-  age: 22,
+// const obj = {
+//   fname: "amman",
+//   lname: "shah",
+//   age: 22,
+// };
+
+// console.log(obj.fname.);
+
+let obj = {
+  name: "amman",
+  lname: "amman",
+  marks: 30,
 };
 
-console.log(obj.fname.);
+for (const key in obj) {
+  if (obj.hasOwnProperty.call(obj, key)) {
+    const result = obj[key];
+    console.log(result);
+  }
+}
