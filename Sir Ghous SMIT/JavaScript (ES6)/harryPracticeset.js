@@ -24,9 +24,11 @@
 
 // console.log(obj);
 
-const obj = {
-  word: "meaning",
-  word: "meaning",
-  word: " meaning",
-  word: "meaning",
-};
+// const obj = {
+//   word: "meaning",
+//   word: "meaning",
+//   word: " meaning",
+//   word: "meaning",
+// };
+
+const obj = {};

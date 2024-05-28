@@ -26,3 +26,11 @@
 //   };
 // }
 // console.log(num(3)(3)(3));
+
+// --------------------------------- Firebase class ------------------------------------------------
+
+// topic: {
+//   firestore;
+//   authentication;
+//   cloude - Storage;
+// }
