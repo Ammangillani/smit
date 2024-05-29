@@ -1,4 +1,4 @@
-// alert("hi im amman")
+alert("hi im amman")
 // console.log("hi imah")
 // prompt("hi im html");
 // console.log(Math.random()*10)
