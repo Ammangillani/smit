@@ -25,4 +25,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+
+}
+
+.login-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-info input {
+    padding: 0.7rem 2rem;
+    margin: 1rem 0;
 }
