@@ -19,7 +19,7 @@ body {
 }
 
 .loginbox {
-    width: calc(100% - 40%);
+    width: calc(100% - 60%);
     height: 600px;
     border-radius: 12px;
     background: chartreuse;
