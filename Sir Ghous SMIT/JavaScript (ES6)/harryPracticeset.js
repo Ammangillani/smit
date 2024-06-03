@@ -52,7 +52,27 @@
 //   }
 // }
 
-"{([])}";
-"{}()[]{}";
-
-"{}[){}";
+let checkSyntax = () => {
+  let bracketsInput = document.getElementById("bracket").value;
+  let stack = [];
+  let brackets = {
+    ")": "(",
+    "}": "{",
+    "]": "[",
+  };
+  for (let char of bracketsInput) {
+    if (char === "(" || char === "{" || char === "[") {
+      stack.push(char);
+    } else if (char === ")" || char === "}" || char === "] ") {
+      if (stack.length === 0 || stack.pop() !== brackets[char]) {
+        alert("no");
+        return;
+      }
+    }
+  }
+  if (stack.length === 0) {
+    alert("No");
+  } else {
+    alert("Yes");
+  }
+};
